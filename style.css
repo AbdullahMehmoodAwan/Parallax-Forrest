@@ -71,7 +71,7 @@ header ul li:first-child {
     height: 37px;
     display: flex;
     border-radius: 50%;
-    background-color: rgba(115, 115, 115, 0.7);
+    background-color: rgba(115, 115, 115, 0.387);
     -webkit-backdrop-filter: blur(10px);
     justify-content: center;
     align-items: center;

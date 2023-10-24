@@ -35,10 +35,3 @@ parallax_el.forEach(el => {
         duration: 3.5
     });
 });
-
-// Add an animation for the text element to move it from the top to the middle of the screen.
-timeline.to(".text", {
-    top:  `${text.offsetHeight / 2 + parseFloat(el.getAttribute("data-distance"))}px`,
-    duration: 3.5,
-    ease: "power2.out",
-}, "-=2.5"); // Delay it slightly to ensure it starts after other animations.
